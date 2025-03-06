@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/mexican_pan.html">Mexican Pan</a></li>
-        <li><a href="./recipes/tuna_salad.html">Home made Tuna Salad</a></li>
-        <li><a href="./recipes/creamy_pasta.html">Creamy Pasta with bacon</a></li>
+    <h1 style="margin-bottom: 100px;"">Odin Recipes</h1>
+    <p>Click on 1 of the recipes below to go to its recipe page.</p>
+    <ul class="recipe-list">
+        <li class="homepage-recipe">
+            <a href="./recipes/mexican_pan.html">
+                <h5>Mexican Pan</h5>
+                <img class="homepage-img" src="./img/mexican_pan.png" alt="A pan with a Mexican dish in there, with eggs, beans and avocado." height="200" width="auto">
+            </a>
+        </li>
+        <li class="homepage-recipe">
+            <a href="./recipes/tuna_salad.html">
+                <h5>Homemade Tuna Salad</h5>
+                <img class="homepage-img" src="./img/tuna_salad.png" alt="A bowl with red onion, celery, mustard, mayonaise, tuna and dille." height="auto" width="180" >
+            </a>
+        </li>
+        <li class="homepage-recipe">
+            <a href="./recipes/creamy_pasta.html">
+                <h5>Creamy Pasta with bacon</h5>
+                <img class="homepage-img" src="./img/creamy_pasta.png" alt="A bowl with spaghetti, creamy sauce with bacond and peper and some green herbs." height="auto" width="200" >
+            </a>
+        </li>
     </ul>
 </body>
 </html>

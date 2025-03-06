@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+.recipe-list {
+    font-size: 22px;
+    color: rgb(0, 106, 255);
+    list-style-type: none;
+    padding: 8px;
+    width: 975px;
+  }
+
+li.homepage-recipe {
+    display: inline-block;
+    border: dotted 2px black;
+    padding: 8px;
+    width: 300px;
+    height: 300px;
+}
+
+img.homepage-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h5 {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(253, 236, 167);
+    color: rgb(151, 27, 193);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.description {
+    font-style: bold;
+}
+
+#recipe-title.mexican-pan {
+    background-color: rgb(203, 230, 254);
+}
+
+#recipe-title.tuna-salad {
+    background-color: rgb(254, 241, 203);
+}
+
+#recipe-title.creamy-pasta {
+    background-color: rgb(203, 255, 212);
+}
