@@ -3,8 +3,8 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif
-  }
+    font-family: 'Libre Franklin', 'Times New Roman', Times, serif
+}
 
 .recipe-list {
     font-size: 22px;
@@ -12,6 +12,9 @@ body {
     list-style-type: none;
     padding: 8px;
     width: 975px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
 li.homepage-recipe {
@@ -20,6 +23,15 @@ li.homepage-recipe {
     padding: 8px;
     width: 300px;
     height: 300px;
+    border-radius: 5%;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:visited {
+    color: rgb(68, 64, 64);
 }
 
 img.homepage-img {
